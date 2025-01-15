@@ -4293,8 +4293,23 @@ img {
   margin-bottom: 30px;
 }
 @media (max-width: 767px) {
+  .service1-section-area .service-all-boxes-area .service-boxarea {
+    width: 100% !important;
+    margin-bottom: 10px;
+    border-radius: 8px;
+  }
+  .service1-section-area .service-all-boxes-area .service-boxarea.box2 {
+    border-radius: 8px;
+  }
+  .service1-section-area .service-all-boxes-area .service-boxarea.box3 {
+    border-radius: 8px;
+  }
+  .service1-section-area .service-all-boxes-area .service-boxarea.box4 {
+    background: #84C7CF;
+    border-radius: 8px;
+  }
   .service1-section-area .service-all-boxes-area1 .service-boxarea {
-    width: 100%;
+    width: 100% !important;
     height: 100%;
   }
 }
